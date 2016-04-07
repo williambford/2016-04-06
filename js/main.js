@@ -1,3 +1,6 @@
 $(document).ready( function() {
-  alert("STILL WORKING");
+
+  $("#meow").click( function() {
+    $("#animals").append("Meow. ");
+  });
 });
